@@ -22,4 +22,4 @@ A interface `NavegadorInternet` define métodos para navegação na web, incluin
 
 ## Entidades
 
-O diagrama inclui a entidade `IPhone`, responsável por utilizar as interfaces mencionadas.
+Este projeto envolve a criação de um diagrama UML para modelar um componente iPhone. O diagrama inclui a entidade `IPhone`, que é responsável por utilizar as interfaces  `ReprodutorMusical`, `AparelhoTelefonico` e `NavegadorInternet`. Esta modelagem permite representar as múltiplas funcionalidades do iPhone em uma estrutura organizada e clara, facilitando o desenvolvimento e manutenção do software.
