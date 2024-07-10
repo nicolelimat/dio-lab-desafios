@@ -1,0 +1,30 @@
+@startuml
+title Modelagem e Diagramação de um Componente iPhone
+
+skinparam classAttributeIconSize 0
+
+interface "ReprodutorMusical" as ReprodutorMusical {
+  +tocar(): void
+  +pausar(): void
+  +selecionarMusica(): void
+}
+
+interface "AparelhoTelefÙnico" as AparelhoTelefonico {
+  +ligar(): void
+  +atender(): void
+  +iniciarCorreioVoz(): void
+}
+
+interface "NavegadorInternet" as NavegadorInternet {
+  +exibirPagina(): void
+  +adicionarNovaAba(): void
+  +atualizarPagina(): void
+}
+
+entity "IPhone" as IPhone {}
+
+IPhone --> AparelhoTelefonico
+IPhone --> NavegadorInternet
+IPhone --> ReprodutorMusical
+
+@enduml
